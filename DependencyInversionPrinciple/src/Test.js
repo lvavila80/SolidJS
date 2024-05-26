@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MySqlDatabase_1 = require("../src/Cinco/MySqlDatabase");
+var Logger_1 = require("../src/Cinco/Logger");
+var UniversityApp_1 = require("../src/Cinco/UniversityApp");
+var database = new MySqlDatabase_1.MySqlDatabase();
+var logger = new Logger_1.Logger();
+var app = new UniversityApp_1.UniversityApp(database, logger);
+app.start();
+app.stop();
