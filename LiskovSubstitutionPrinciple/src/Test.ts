@@ -1,6 +1,6 @@
-import { Curso } from '../PrincipioSustitucionLiskov/Curso';
-import { CursoMatematicas } from '../PrincipioSustitucionLiskov/CursoMatematicas';
-import { CursoHistoria } from '../PrincipioSustitucionLiskov/CursoHistoria';
+import { Curso } from '../src/Tres/Curso';
+import { CursoMatematicas } from '../src/Tres/CursoMatematicas';
+import { CursoHistoria } from '../src/Tres/CursoHistoria';
 
 function imprimirDescripcionCurso(curso: Curso) {
     console.log(curso.describirCurso());
