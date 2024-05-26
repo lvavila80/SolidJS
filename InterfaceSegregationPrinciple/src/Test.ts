@@ -1,5 +1,5 @@
-import { Estudiante } from '../PrincipioSegregacionInterfaces/Estudiante';
-import { Profesor } from '../PrincipioSegregacionInterfaces/Profesor';
+import { Estudiante } from '../Cuatro/Estudiante';
+import { Profesor } from '../Cuatro/Profesor';
 
 // Crear instancia de Estudiante
 let estudiante1 = new Estudiante('Ana García');
